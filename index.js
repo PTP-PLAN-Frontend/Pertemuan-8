@@ -47,12 +47,12 @@ const namaTim = [
   'Alvito - Anggota',
 ];
 
-// const timPertama = namaTim.slice(0, 2);
-// const timKedua = namaTim.splice(2);
+const timPertama = namaTim.slice(0, 2);
+const timKedua = namaTim.splice(2);
 
-// console.log(`${timPertama[0]}, ${timPertama[1]}`);
-// console.log(`${timKedua[0]}, ${timKedua[1]}`);
+console.log(`${timPertama[0]}, ${timPertama[1]}`);
+console.log(`${timKedua[0]}, ${timKedua[1]}`);
 
-namaTim.forEach((data) => {
-  document.write(data);
-})
+// namaTim.forEach((data) => {
+//   document.write(data);
+// })
